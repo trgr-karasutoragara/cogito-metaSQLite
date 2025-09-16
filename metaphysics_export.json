@@ -1,0 +1,303 @@
+{
+  "existence_concepts": [
+    {
+      "id": 1,
+      "name": "存在",
+      "cultural_context": "western",
+      "definition": "ハイデガーの根本概念、現存在の基盤",
+      "abstraction_level": 10,
+      "temporal_aspect": 1,
+      "spatial_aspect": 1,
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 2,
+      "name": "有",
+      "cultural_context": "buddhist",
+      "definition": "一切法有、現象界の存在性",
+      "abstraction_level": 9,
+      "temporal_aspect": 1,
+      "spatial_aspect": 1,
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 3,
+      "name": "実在",
+      "cultural_context": "western",
+      "definition": "プラトンのイデア界の実体",
+      "abstraction_level": 10,
+      "temporal_aspect": 0,
+      "spatial_aspect": 0,
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 4,
+      "name": "犬のタロー",
+      "cultural_context": "universal",
+      "definition": "具体的個体の存在例",
+      "abstraction_level": 0,
+      "temporal_aspect": 1,
+      "spatial_aspect": 1,
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 5,
+      "name": "Being",
+      "cultural_context": "western",
+      "definition": "ハイデガーのSein概念",
+      "abstraction_level": 10,
+      "temporal_aspect": 1,
+      "spatial_aspect": 1,
+      "created_at": "2025-09-16 20:51:26"
+    }
+  ],
+  "nothingness_concepts": [
+    {
+      "id": 1,
+      "name": "無",
+      "cultural_context": "daoist",
+      "definition": "道教の根本概念、有を生み出す源",
+      "type": "daoist_wu",
+      "relation_to_existence": "有を生成する",
+      "paradox_level": 8
+    },
+    {
+      "id": 2,
+      "name": "空",
+      "cultural_context": "buddhist",
+      "definition": "縁起による実体の空性",
+      "type": "buddhist_emptiness",
+      "relation_to_existence": "固定実体の否定",
+      "paradox_level": 9
+    },
+    {
+      "id": 3,
+      "name": "虚無",
+      "cultural_context": "western",
+      "definition": "絶対的な無、存在の完全否定",
+      "type": "absolute_void",
+      "relation_to_existence": "存在との対立",
+      "paradox_level": 7
+    },
+    {
+      "id": 4,
+      "name": "Nothingness",
+      "cultural_context": "western",
+      "definition": "サルトルの無概念",
+      "type": "existential_negation",
+      "relation_to_existence": "意識による無化",
+      "paradox_level": 6
+    }
+  ],
+  "time_concepts": [
+    {
+      "id": 1,
+      "name": "時間",
+      "cultural_context": "western_newton",
+      "definition": "ニュートンの絶対時間",
+      "linearity": 1,
+      "objectivity": "absolute",
+      "measurement_unit": "second",
+      "arrow_direction": "forward"
+    },
+    {
+      "id": 2,
+      "name": "時空",
+      "cultural_context": "western_einstein",
+      "definition": "アインシュタインの相対論的時空",
+      "linearity": 1,
+      "objectivity": "relative",
+      "measurement_unit": "spacetime_interval",
+      "arrow_direction": "forward"
+    },
+    {
+      "id": 3,
+      "name": "劫",
+      "cultural_context": "buddhist",
+      "definition": "仏教の宇宙論的時間単位",
+      "linearity": 0,
+      "objectivity": "illusory",
+      "measurement_unit": "kalpa",
+      "arrow_direction": "none"
+    },
+    {
+      "id": 4,
+      "name": "永遠の今",
+      "cultural_context": "mystical",
+      "definition": "時間を超越した瞬間",
+      "linearity": 0,
+      "objectivity": "subjective",
+      "measurement_unit": "moment",
+      "arrow_direction": "none"
+    }
+  ],
+  "space_concepts": [],
+  "consciousness_concepts": [
+    {
+      "id": 1,
+      "name": "意識",
+      "cultural_context": "western_modern",
+      "definition": "現代哲学の心の問題",
+      "embodiment": "embodied",
+      "unity": 1,
+      "privacy_level": 8,
+      "computational": 0
+    },
+    {
+      "id": 2,
+      "name": "心",
+      "cultural_context": "buddhist",
+      "definition": "仏教の心識論",
+      "embodiment": "both",
+      "unity": 0,
+      "privacy_level": 6,
+      "computational": 0
+    },
+    {
+      "id": 3,
+      "name": "魂",
+      "cultural_context": "western_ancient",
+      "definition": "プラトンの霊魂論",
+      "embodiment": "disembodied",
+      "unity": 1,
+      "privacy_level": 10,
+      "computational": 0
+    }
+  ],
+  "substance_concepts": [],
+  "universal_concepts": [],
+  "divine_concepts": [
+    {
+      "id": 1,
+      "name": "神",
+      "cultural_context": "western_christian",
+      "definition": "キリスト教の創造神",
+      "transcendence_level": 10,
+      "immanence_level": 3,
+      "personality": 1,
+      "causality_role": "first_cause"
+    },
+    {
+      "id": 2,
+      "name": "ブラフマン",
+      "cultural_context": "hindu",
+      "definition": "ウパニシャッドの根本実在",
+      "transcendence_level": 10,
+      "immanence_level": 10,
+      "personality": 0,
+      "causality_role": "sustaining_cause"
+    },
+    {
+      "id": 3,
+      "name": "道",
+      "cultural_context": "daoist",
+      "definition": "老子の根本原理",
+      "transcendence_level": 8,
+      "immanence_level": 10,
+      "personality": 0,
+      "causality_role": "no_cause"
+    }
+  ],
+  "good_concepts": [],
+  "dao_concepts": [
+    {
+      "id": 1,
+      "name": "道",
+      "cultural_context": "daoist",
+      "definition": "老子の道徳経の根本概念",
+      "expressability": 0,
+      "action_principle": "wu_wei",
+      "universality_scope": "cosmic",
+      "knowability": "experiential_only"
+    },
+    {
+      "id": 2,
+      "name": "ダルマ",
+      "cultural_context": "buddhist",
+      "definition": "仏教の法・真理",
+      "expressability": 1,
+      "action_principle": "dharma",
+      "universality_scope": "universal",
+      "knowability": "partially_knowable"
+    },
+    {
+      "id": 3,
+      "name": "ロゴス",
+      "cultural_context": "western_ancient",
+      "definition": "ヘラクレイトスの理性原理",
+      "expressability": 1,
+      "action_principle": "logos",
+      "universality_scope": "cosmic",
+      "knowability": "knowable"
+    }
+  ],
+  "concept_relations": [
+    {
+      "id": 1,
+      "source_table": "nothingness_concepts",
+      "source_id": 1,
+      "target_table": "existence_concepts",
+      "target_id": 2,
+      "relation_type": "generates",
+      "strength": 0.9,
+      "cultural_specificity": "daoist",
+      "logical_necessity": "necessary",
+      "temporal_stability": "eternal",
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 2,
+      "source_table": "existence_concepts",
+      "source_id": 2,
+      "target_table": "nothingness_concepts",
+      "target_id": 2,
+      "relation_type": "is_empty_of",
+      "strength": 0.8,
+      "cultural_specificity": "buddhist",
+      "logical_necessity": "necessary",
+      "temporal_stability": "eternal",
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 3,
+      "source_table": "divine_concepts",
+      "source_id": 1,
+      "target_table": "existence_concepts",
+      "target_id": 1,
+      "relation_type": "creates",
+      "strength": 0.7,
+      "cultural_specificity": "western_christian",
+      "logical_necessity": "contingent",
+      "temporal_stability": "historical",
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 4,
+      "source_table": "dao_concepts",
+      "source_id": 1,
+      "target_table": "nothingness_concepts",
+      "target_id": 1,
+      "relation_type": "manifests_through",
+      "strength": 0.9,
+      "cultural_specificity": "daoist",
+      "logical_necessity": "necessary",
+      "temporal_stability": "eternal",
+      "created_at": "2025-09-16 20:51:26"
+    },
+    {
+      "id": 5,
+      "source_table": "consciousness_concepts",
+      "source_id": 1,
+      "target_table": "existence_concepts",
+      "target_id": 1,
+      "relation_type": "realizes",
+      "strength": 0.6,
+      "cultural_specificity": "western_modern",
+      "logical_necessity": "contingent",
+      "temporal_stability": "contextual",
+      "created_at": "2025-09-16 20:51:26"
+    }
+  ],
+  "contradictions": [],
+  "cultural_interpretations": []
+}
