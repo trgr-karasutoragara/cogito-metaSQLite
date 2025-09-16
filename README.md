@@ -11,6 +11,8 @@ This project is released under the **MIT License**, which guarantees your freedo
 # cogito-metaSQLite
 形而上学存在論など高度に抽象的なことを直感的に操作するフレームワーク案
 
+<br>
+
 ## これは何？
 哲学者・研究者・学生・大学院生さんなどが、ハイデガーのように高度に抽象的に考えられるのに、言葉（英語や日本語など自然言語）の制約で苦労する問題への提案です。
 
@@ -18,6 +20,10 @@ This project is released under the **MIT License**, which guarantees your freedo
 
 SQL自体も配布していますが、サンプルなので、内容は専門家がデザインなさって下さい。
 
+<br>
+
+
+### 自然言語の構造問題例
 
 ``` 
 蒸気機関の系譜 = [
@@ -68,6 +74,21 @@ SQL自体も配布していますが、サンプルなので、内容は専門�
 ``` 
 
 上記出典の私の記事: https://note.com/karasu_toragara/n/n9a233509e012
+
+<br>
+
+## 配布ファイルの同一性検証用のSHA256ハッシュ値
+| SHA256ハッシュ値 | ファイル名 |
+|----------|----------|
+| fd95abe097eef0383e8f1dac5b36799bd02c4366ce8aa1bc0e6c8c75789563fd | metaphysics.db |
+| d222ca8321a1866bddc45866f3861253aefac80b19132756546512328352415a | metaphysics_python.py |
+| 87edf725b0842fb0df2f134a28345dc4d3aa6931dc89ca6212c3edeb4a807bd1 | metaphysics_export.json |
+| 865b8bdfd8d2580331f6bf5f85e246bf28d56c38b1261a5457cd4e9a5b40854f | metaphysics_sample_queries.sql |
+
+
+
+
+
 
 
 
