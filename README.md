@@ -243,7 +243,7 @@ sqlite3 metaphysics.db
 # 任意のクエリをコピペして実行
 .mode column
 .headers on
-# ←ここに [metaphysics_sample_queries.sql](https://github.com/trgr-karasutoragara/cogito-metaSQLite/blob/main/metaphysics_sample_queries.sql)からコピペ
+# ←ここに metaphysics_sample_queries.sql からコピペ
 
 ```
 
